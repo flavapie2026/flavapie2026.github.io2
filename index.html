@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Princetea Café - Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
+<style>
+    body {
+        background-image:url('https://static.vecteezy.com/system/resources/previews/004/851/649/non_2x/abstract-blur-coffee-shop-cafe-for-background-free-photo.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        /*background-color:#BFA084;*/
+        padding:0;
+        margin:0;
+    }
+
+    header {
+        width:100%;
+        height:75px;
+        background-color:#403022;
+        color:#F2E2C4;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-bottom:groove 10px #A67C49;
+    }
+
+    header ul {
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+
+    header ul li {
+        float: left;
+        height: 60px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    header ul li a {
+        display: block;
+        color: #F2E2C4;
+        text-align: center;
+        padding:14px 16px;
+        text-decoration: none;
+        font-size: 22pt;
+        margin-right:20px;
+        margin-left:20px;
+    }
+
+    /*header ul li:hover {
+        background-color: #F2E9D8;
+    }*/
+
+    #logo {
+        height:65px;
+        width:250px;
+        margin-right:500px;
+        margin-left:15px;
+    }
+
+    #welcometext {
+        text-align:center;
+        line-height: 15px;
+        font-family:'Playfair Display SC', serif;
+        color:#F2E2C4;
+        border-radius:200px;
+        margin-left:200px;
+        margin-right:200px;
+        border:groove 10px #A67C49;
+    }
+
+    .welcomepart {
+        background-color:#33281E;
+        border-radius:25px;
+        margin-left:20px;
+        margin-right:20px;
+        margin-top:30px;
+        margin-bottom:50px;
+        padding:10px;
+        border:solid 5px #A67C49;
+    }
+
+    .contentpart {
+        background-color:#33281E;
+        border-radius:25px;
+        margin-left:35px;
+        margin-right:350px;
+        margin-top:15px;
+        margin-bottom:35px;
+        padding:10px;
+        border:solid 5px #A67C49;
+        box-shadow: 0 0 30px 15px #000000;
+    }
+
+    .underline-hover {
+        display:inline-block;
+        position:relative;
+        padding-bottom:0.1rem;
+    }
+
+    .underline-hover::before {
+        content:"";
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:0;
+        height:2px;
+        background-color:#F2E9D8;
+        transition: width 0.25s ease-out;
+    }
+
+    .underline-hover:hover::before {
+        width:100%;
+    }
+
+    #contenttext {
+        color:#F2E2C4;
+        font-family:'Cardo', serif;
+    }
+
+    #coffeevid {
+        float:right;
+        margin:20px;
+    }
+
+    #cheesecakevid {
+        float:left;
+        margin:20px;
+    }
+
+    aside {
+        color:#F2E2C4;
+        font-family:'Cardo', serif;
+        text-align:left;
+        float:right;
+        background-color:#33281E;
+        border-radius:25px;
+        border:solid 5px #A67C49;
+        margin-right:35px;
+        margin-left:10px;
+        padding:10px;
+        box-shadow: 0 0 30px 15px #000000;
+        width:250px;
+    }
+
+    footer {
+        background-color:#403022;
+        padding:10px;
+        margin:0;
+        border-top:groove 10px #A67C49;
+        color:#F2E2C4;
+        font-family:'Cardo', serif;
+        text-align:left;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <img src="Princetea_logo.png" id="logo" alt="Logo">
+        <nav>
+        <ul>
+            <li class="underline-hover"><a href="index.html">Home</a></li>
+            <li class="underline-hover"><a href="cafemenu.html">Menu</a></li>
+            <li class="underline-hover"><a href="cafeabout.html">About</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section class="welcomepart" id="welcometext">
+        <h3 style="font-size:25pt;">Welcome to</h3>
+        <h1 style="font-size:55pt;">Princetea Café</h1>
+        <h3 style="font-size:15pt; color:#a38764;">Feel like royalty while drinking tea.</h3>
+    </section>
+    <aside>
+        <h1 style="text-align:center; font-size:23pt;">-ˏˋ PROMOS ˊˎ-</h1>
+        <h3>❑ Holidays</h3>
+            <ul>
+                <li>20% discount on all <b>beverages</b></li>
+                <li>Buy one, get one free <b>Chocolate Chip Cookie</b></li>
+                <li><b>Limited</b> beverages themed to the holidays</li>
+            </ul>
+        <h3>❑ Any other day</h3>
+            <ul>
+                <li><b>Free</b> samples</li>
+            </ul>
+        <h3>❑ First order</h3>
+            <ul>
+                <li>One free <b>Blueberry Cheesecake</b></li>
+            </ul>
+    <hr>
+        <h1 style="text-align:center; font-size:23pt;">-ˏˋ BEST SELLERS ˊˎ-</h1>
+        <ul>
+            <li>Latte</li>
+            <li>Hot Chocolate</li>
+            <li>Chocolate Chip Cookie</li>
+            <li>Doughnut</li>
+        </ul>
+    </aside>
+    <div class="contentpart" id="contenttext">
+        <article>
+        <video id="coffeevid" width="450" height="300" autoplay loop muted controls>
+            <source src="mixkit-coffee-in-green-mug-818-medium.ogg" type="video/ogg">
+            <source src="mixkit-coffee-in-green-mug-818-medium.mp4" type="video/mpeg">
+        </video>
+        <h1>"So comforting. . ."</h1>
+        <blockquote><i>
+            "From the coffee to the café shop itself, the
+            emphasizing feeling I felt was comfort. My initial thought before 
+            I entered this café shop was to find peace while I do my work. 
+            Kudos to Princetea Café for accomplishing that exactly! The second I stepped into the
+            café, the cozy atmosphere hit my face. And don't even get me started on their menu, everything 
+            was delicious! Definitely a recommend if you're looking for peace and comfort!"</i>
+        </blockquote>
+        <blockquote><i>- Anonymous</i></blockquote>
+        <video id="cheesecakevid" width="450" height="300" autoplay loop muted controls>
+            <source src="mixkit-cheesecake-2441-medium.ogg" type="video/ogg">
+            <source src="mixkit-cheesecake-2441-medium.mp4" type="video/mpeg">
+        </video>
+        <h1>"Healed my taste buds. . ."</h1>
+        <blockquote><i>
+            "Discovering Princetea Café will always be one of the best things to ever 
+            happen in my entire life. Their food really raised my standards! Not to be exaggerating 
+            or anything, but their food is really one of the best. It definitely healed my taste buds! 
+            Aside from the delicious food, the customer service, the interior and exterior design of the café, and 
+            the feeling you get when you enter the café were all really satisfying. A five out of 
+            five rating for me!"</i>
+        </blockquote>
+        <blockquote><i>- Anonymous</i></blockquote>
+        </article>
+    </div>
+    <footer>
+        <p style="margin-right:300px;">Copyright (C) 2022. All rights reserved. All media
+        used belong to their rightful owners.</p>
+        <p style="margin-right:20px;"><b>Now playing:</b> <i>Like The Movies - Laufey. . . </i></p>
+        <audio controls="controls" autoplay loop preload="auto">
+            <source src="laufey_likethemovies_instrumental.mp3" type="audio/mpeg">
+            <source src="laufey_likethemovies_instrumental.ogg" type="audio/ogg">
+        </audio>
+    </footer>
+</body>
+</html>
